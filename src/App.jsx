@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './styles/App.css'
 import HomePage from './pages/HomePage.jsx'
 import ContactMe from './pages/ContactMe.jsx'
@@ -7,8 +7,12 @@ import ContactMe from './pages/ContactMe.jsx'
 function App() {
   return (
     <>
-      <HomePage />
-      <ContactMe />
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/contact" element={<ContactMe />} />
+        </Routes>
+      </Router>
     </>
   )
 }
