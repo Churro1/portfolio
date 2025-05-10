@@ -2,11 +2,11 @@ import React from 'react';
 
 function ContactForm() {
   return (
-    
+
 
     <div className="contact-form">
       <h2>Contact Me</h2>
-      <form>
+      <form action="https://formsubmit.co/charliejminer@gmail.com" method="POST">
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" name="name" required />
         <br></br>

@@ -1,0 +1,21 @@
+:root {
+    --prussian-blue: #032B43;
+    --mahogany: #C44900;
+    --selective_yellow: #FFBB00;
+    --powder-blue: #A7BBEC;
+    --celadon: #A8C69f;
+
+}
+
+html {
+    background-color: var(--prussian-blue);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    width: auto;
+    height: 200px;
+    border-radius: 20px;
+    border: 2px solid var(--powder-blue);
+}

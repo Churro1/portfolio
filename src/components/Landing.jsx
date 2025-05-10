@@ -1,5 +1,6 @@
 import React from 'react';
 import headshot from '../assets/headshot.png';
+import '../styles/App.css';
 
 function Landing() {
 
@@ -11,8 +12,8 @@ function Landing() {
         <p>It is a pleasure to meet you</p>
       </div>
 
-      <div className="image">
-        <img src={headshot} alt="Charlie Miner" />
+      <div>
+        <img className="fancy-fade" src={headshot} alt="Charlie Miner" />
       </div>
 
       <div className="description">
