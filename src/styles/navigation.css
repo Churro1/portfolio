@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--prussian-blue);
+}
+
+.nav-title {
+    font-size: 24px;
+    color: var(--powder-blue);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-buttons > button {
+    color: var(--powder-blue);
+    background-color: var(--prussian-blue);
+    border: 2px solid var(--prussian-blue);
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
