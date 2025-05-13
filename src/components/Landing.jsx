@@ -1,16 +1,27 @@
 import React from 'react';
 import headshot from '../assets/headshot.png';
 import '../styles/App.css';
+import '../styles/landing.css';
 
 function Landing() {
 
   return (
     <>
+      <div className='top-left-corner'>
+        <div className='vertical'></div>
+        <div className='horizontal'></div>
+      </div>
+      
       <div className="title">
         <p>Hello! My name is</p>
-        <h1>Charlie Miner</h1>
-        <p>It is a pleasure to meet you</p>
+        <h1 className='name'>Charlie Miner</h1>
       </div>
+
+      <div className='bottom-right-corner'>
+        <div className='vertical'></div>
+        <div className='horizontal'></div>
+      </div>
+
 
       <div>
         <img className="headshot" src={headshot} alt="Charlie Miner Headshot" />

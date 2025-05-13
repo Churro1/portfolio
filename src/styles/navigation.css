@@ -16,6 +16,7 @@ nav {
 .nav-buttons {
     display: flex;
     gap: 20px;
+
 }
 
 .nav-buttons > button {
@@ -27,4 +28,5 @@ nav {
     cursor: pointer;
     text-decoration: underline;
     text-underline-offset: 2px;
+    font-family: 'Courier New', Courier, monospace;
 }
