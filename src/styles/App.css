@@ -12,11 +12,3 @@ html {
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
-
-img {
-    width: auto;
-    height: 200px;
-    border-radius: 20px;
-    border: 2px solid var(--powder-blue);
-}
-

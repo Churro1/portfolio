@@ -11,9 +11,9 @@ function Navigation() {
 
     return (
         <nav>
-            <div  className="nav-title">
+            {/* <div  className="nav-title">
                 <h1>My Portfolio</h1>
-            </div>
+            </div> */}
 
             <div className="nav-buttons" >
                 <button onClick={() => handleNavigation("/")}>Home</button>
