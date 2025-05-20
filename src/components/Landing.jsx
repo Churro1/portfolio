@@ -10,24 +10,26 @@ function Landing() {
       <div className='container'>
 
         <div className="left-section">
-          <div className='top-left-corner'>
-            <div className='vertical'></div>
-            <div className='horizontal'></div>
-          </div>
 
           <div className="introduction">
+            <div className='top-left-corner'>
+              <div className='vertical'></div>
+              <div className='horizontal'></div>
+            </div>
+
             <p className='hello'>Hello! My name is</p>
             <h1 className='name'>Charlie Miner</h1>
+            
+            <div className='bottom-right-corner'>
+              <div className='vertical'></div>
+              <div className='horizontal'></div>
+            </div>
           </div>
 
-          <div className='bottom-right-corner'>
-            <div className='vertical'></div>
-            <div className='horizontal'></div>
-          </div>
         </div>
 
         <div className="right-section">
-          
+
           <img className="headshot" src={headshot} alt="Charlie Miner Headshot" />
 
 
